@@ -1,0 +1,37 @@
+{
+  "name": "frontend-take-home-challenge",
+  "version": "0.1.0",
+  "description": "Frontend Take Home Challenge",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "next build && next export",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "jest __test__",
+    "test:watch": "jest __test__ --watch"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.28.2",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.0.0",
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.36",
+    "@types/styled-components": "^5.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "jest": "^26.0.1",
+    "typescript": "^3.9.5"
+  }
+}
